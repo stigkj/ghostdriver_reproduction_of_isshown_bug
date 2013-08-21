@@ -1,5 +1,5 @@
-Reproduce error in isShown in get_text
-======================================
+Reproduce error in get_text.isShown(...) 
+========================================
 
 This will reproduce the error reported in [ghostdriver (#254)](https://github.com/detro/ghostdriver/issues/254) for version 1.0.4.
  
