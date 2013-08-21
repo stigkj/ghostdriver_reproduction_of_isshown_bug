@@ -11,7 +11,7 @@ Setup
 
 **Install Ruby dependencies**
 
-        bundle install
+    bundle install
 
 
 Run it
@@ -23,10 +23,8 @@ Run it
 
 2. Run phantomjs in webdriver mode listening on default port 8910,
    either with the embedded ghostdriver or using an external version
-
-    * `phantomjs --webdriver=8910`
-    * `phantomjs <path to main.js>`
-
+   * `phantomjs --webdriver=8910`
+   * `phantomjs <path to main.js>`
 
 3. Run the driver groovy script
 
@@ -36,4 +34,4 @@ Run it
 When successful, the driver script should print the text 'should return this' on the console.
 
 NB! The driver script should download dependencies by it self, courtesy of Groovy's Grape.
-    If this does not work, try to clear you local Maven repository.
+    If this does not work, try to clear your local Maven repository.
